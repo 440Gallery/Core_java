@@ -1,0 +1,3 @@
+enum Region{
+    MANDYA,BELAGAVI,DAVANAGERE,TUMKUR
+}
