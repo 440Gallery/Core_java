@@ -5,7 +5,7 @@ class WaterMelonStore{
     void save(WaterMelon waterMelon){
 		if(melons!=null){
 			if (count < melons.length){
-				melons[count]=waterMelon;
+				this.melons[this.count]=waterMelon;
 				System.out.println("melonsindex"+this.count);
 				count++;
 				}
