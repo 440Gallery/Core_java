@@ -11,6 +11,9 @@ class Address{
 		this.state=state;
 	}
 	void addressDisplay(){
+	
+		System.out.println(".................");
+		System.out.println("addressDisplay");
 		System.out.println("no:"+no);
 		System.out.println("pincode:"+pincode);
 		state.stateDisplay();

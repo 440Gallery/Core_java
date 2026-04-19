@@ -11,6 +11,8 @@ class Collector {
 		
 	}
 	void collectorDisplay(){
+		System.out.println(".................");
+		System.out.println("collectorDisplay");
 		System.out.println("name:"+name);
 		System.out.println("batchNo:"+batchNo);
 		

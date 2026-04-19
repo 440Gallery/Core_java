@@ -1,5 +1,4 @@
-class Country
-{
+class Country{
 	String name;
 	President president;
 	State[] states;
@@ -12,11 +11,12 @@ class Country
 	}
 		
     void countryDisplay(){
-			System.out.println("name:"+name);
-			president.presidentDisplay();
-			for (State s : states){
-				s.stateDisplay();
-				}
+		System.out.println(".................");
+		System.out.println("countryDisplay");
+		System.out.println("name:"+name);
+		president.presidentDisplay();
+		for (State s : states){
+			s.stateDisplay();
 			}
-	}
+		}
 }

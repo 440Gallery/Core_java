@@ -11,10 +11,12 @@ class City{
 		this.districts=districts;
 	}
 	void cityDisplay(){
+		System.out.println(".................");
+		System.out.println("cityDisplay");
 		System.out.println("name:"+name);
 		System.out.println("noOfDistricts:"+noOfDistricts);
-		for(District d =districts){
-			d.districtsDisplay();
+		for(District d:districts){
+			d.districtDisplay();
 		}
 	}
 }

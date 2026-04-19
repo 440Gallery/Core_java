@@ -11,6 +11,8 @@ class District{
 		
 	}
 	void districtDisplay(){
+		System.out.println(".................");
+		System.out.println("districtDisplay");
 		System.out.println("name:"+name);
 		collector.collectorDisplay();
 		

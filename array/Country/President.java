@@ -13,6 +13,8 @@ class President{
 		this.address=address;
 	}
 	void presidentDisplay(){
+		System.out.println(".................");
+		System.out.println("presidentDisplay");
 		System.out.println("name:"+name);
 		System.out.println("age:"+age);
 		address.addressDisplay();

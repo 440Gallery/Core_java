@@ -13,6 +13,8 @@ class State{
 		
 	}
 	void stateDisplay(){
+		System.out.println(".................");
+		System.out.println("stateDisplay");
 		System.out.println("name:"+name);
 		System.out.println("population:"+population);
 		city.cityDisplay();
