@@ -1,17 +1,6 @@
-class Doctor{
-    String name;
-    int age;
-    String specialization;
-    double salary;
-    int exp;
-	Doctor(String name){
-		this("amit", 26, "Genral", 50000, 1);
-	}
-    Doctor(String name, int age, String specialization, double salary, int exp) {
-        this.name = name;
-        this.age = age;
-        this.specialization = specialization;
-        this.salary = salary;
-        this.exp = exp;
-    }
-}
+
+init with const 6 classes declare 5 instance methods.
+Declare subclasses for this 6 parent override 3 methods. 
+Create two instances of subclass , 
+invoke all the 5 methods
+*/

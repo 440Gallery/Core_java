@@ -1,3 +1,4 @@
+//1 class decare a final variable
 class StoreR{
     final int pen=5;
 

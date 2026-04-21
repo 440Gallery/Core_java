@@ -3,6 +3,7 @@ class Store{
 	int pen;
 	int pencil;
 	int eraser;
+	
 	final void storeinfo(){
 		pen=5;
 		pencil=2;
