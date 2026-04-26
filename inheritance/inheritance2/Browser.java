@@ -1,5 +1,5 @@
 	class Browser{
 		void Web(){
-			System.out.println("running");
+			System.out.println("running browser");
 		}
 	}
